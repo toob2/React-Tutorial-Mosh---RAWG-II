@@ -1,0 +1,45 @@
+[
+  "games",
+  {
+    "genre": {
+      "games": [
+        {
+          "added": 21075,
+          "id": 3498,
+          "name": "Grand Theft Auto V",
+          "slug": "grand-theft-auto-v"
+        },
+        {
+          "added": 20553,
+          "id": 3328,
+          "name": "The Witcher 3: Wild Hunt",
+          "slug": "the-witcher-3-wild-hunt"
+        },
+        {
+          "added": 16754,
+          "id": 5286,
+          "name": "Tomb Raider (2013)",
+          "slug": "tomb-raider"
+        },
+        { "added": 16550, "id": 13536, "name": "Portal", "slug": "portal" },
+        {
+          "added": 16442,
+          "id": 12020,
+          "name": "Left 4 Dead 2",
+          "slug": "left-4-dead-2"
+        },
+        {
+          "added": 15876,
+          "id": 5679,
+          "name": "The Elder Scrolls V: Skyrim",
+          "slug": "the-elder-scrolls-v-skyrim"
+        }
+      ],
+      "games_count": 181654,
+      "id": 4,
+      "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg",
+      "name": "Action",
+      "slug": "action"
+    }
+  }
+]
