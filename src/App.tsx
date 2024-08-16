@@ -74,9 +74,8 @@ function App() {
                 selectedSortOrder={gameQuery.order}
               />
             </HStack>
+            <GameGrid gameQuery={gameQuery} />
           </Box>
-
-          <GameGrid gameQuery={gameQuery} />
         </GridItem>
       </Grid>
     </>

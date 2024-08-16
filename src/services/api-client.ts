@@ -3,6 +3,8 @@ import axios, { AxiosRequestConfig } from "axios";
 export interface FetchResponse<T> {
   count: number;
   results: T[];
+  previous: string | null;
+  next: string | null;
 }
 
 const axiosInstance = axios.create({
