@@ -1,5 +1,4 @@
 import { Box } from "@chakra-ui/react";
-import { transform } from "framer-motion";
 import { ReactNode } from "react";
 
 interface Props {

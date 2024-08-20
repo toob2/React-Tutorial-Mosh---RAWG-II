@@ -1,0 +1,18 @@
+import { useQuery } from "@tanstack/react-query";
+import ms from "ms";
+import APIClient from "../services/api-client";
+import { Trailer } from "../entities/Trailer";
+
+const useTrailers = (gameId: number) => {
+  const endpoint = `/games/${gameId}/movies`;
+  console.log("endpoint", endpoint);
+  const apiClient = new APIClient<Trailer>(`/games/${gameId}/movies`);
+
+  return useQuery({
+    queryKey: ["trailers", gameId],
+    queryFn: apiClient.getAll,
+    staleTime: ms("24h"),
+  });
+};
+
+export default useTrailers;
